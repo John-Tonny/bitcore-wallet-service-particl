@@ -1,5 +1,5 @@
 {
-  "_from": "git://github.com/vpub/bitcore-wallet-service.git",
+  "_from": "git://github.com/John-Tonny/bitcore-wallet-service.git",
   "_id": "bitcore-wallet-service@2.5.1",
   "_inBundle": false,
   "_integrity": "sha1-TLwLU2A+x3yr7gwiO0ogHEfUAwE=",
@@ -29,19 +29,19 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "bitcore-wallet-service@git://github.com/vpub/bitcore-wallet-service.git",
+    "raw": "bitcore-wallet-service@git://github.com/John-Tonny/bitcore-wallet-service.git",
     "name": "bitcore-wallet-service",
     "escapedName": "bitcore-wallet-service",
-    "rawSpec": "git://github.com/vpub/bitcore-wallet-service.git",
-    "saveSpec": "git://github.com/vpub/bitcore-wallet-service.git",
-    "fetchSpec": "git://github.com/vpub/bitcore-wallet-service.git",
+    "rawSpec": "git://github.com/John-Tonny/bitcore-wallet-service.git",
+    "saveSpec": "git://github.com/John-Tonny/bitcore-wallet-service.git",
+    "fetchSpec": "git://github.com/John-Tonny/bitcore-wallet-service.git",
     "gitCommittish": "master"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git://github.com/vpub/bitcore-wallet-service.git#0bdf295edb2fa07dbcc70bdf48be70c2f413ef01",
-  "_spec": "bitcore-wallet-service@git://github.com/vpub/bitcore-wallet-service.git",
+  "_resolved": "git://github.com/John-Tonny/bitcore-wallet-service.git#0bdf295edb2fa07dbcc70bdf48be70c2f413ef01",
+  "_spec": "bitcore-wallet-service@git://github.com/John-Tonny/bitcore-wallet-service.git",
   "_where": "/root/vpub-bitcore-node",
   "author": {
     "name": "BitPay Inc"
@@ -85,7 +85,7 @@
     "morgan": "^1.9.1",
     "mustache": "^2.1.0",
     "npmlog": "^0.1.1",
-    "vpub-bitcore-lib": "git://github.com/vpub/vpub-bitcore-lib.git",
+    "vpub-bitcore-lib": "git://github.com/vpubchain/vpub-bitcore-lib.git",
     "preconditions": "^2.2.1",
     "read": "^1.0.5",
     "request": "^2.53.0",
