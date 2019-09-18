@@ -1,0 +1,136 @@
+{
+  "_from": "git://github.com/vpub/bitcore-wallet-service.git",
+  "_id": "bitcore-wallet-service@2.5.1",
+  "_inBundle": false,
+  "_integrity": "sha1-TLwLU2A+x3yr7gwiO0ogHEfUAwE=",
+  "_location": "/bitcore-wallet-service",
+  "_phantomChildren": {
+    "accepts": "1.3.7",
+    "after": "0.8.2",
+    "async-limiter": "1.0.1",
+    "backo2": "1.0.2",
+    "base64-arraybuffer": "0.1.5",
+    "base64id": "1.0.0",
+    "bn.js": "4.11.8",
+    "bs58": "4.0.1",
+    "buffer-compare": "1.1.1",
+    "component-bind": "1.0.0",
+    "component-inherit": "0.0.3",
+    "elliptic": "6.4.0",
+    "has-binary2": "1.0.3",
+    "has-cors": "1.1.0",
+    "indexof": "0.0.1",
+    "lodash": "4.17.11",
+    "object-component": "0.0.3",
+    "parseqs": "0.0.5",
+    "parseuri": "0.0.5",
+    "to-array": "0.1.4",
+    "yeast": "0.1.2"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "bitcore-wallet-service@git://github.com/vpub/bitcore-wallet-service.git",
+    "name": "bitcore-wallet-service",
+    "escapedName": "bitcore-wallet-service",
+    "rawSpec": "git://github.com/vpub/bitcore-wallet-service.git",
+    "saveSpec": "git://github.com/vpub/bitcore-wallet-service.git",
+    "fetchSpec": "git://github.com/vpub/bitcore-wallet-service.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/vpub/bitcore-wallet-service.git#0bdf295edb2fa07dbcc70bdf48be70c2f413ef01",
+  "_spec": "bitcore-wallet-service@git://github.com/vpub/bitcore-wallet-service.git",
+  "_where": "/root/vpub-bitcore-node",
+  "author": {
+    "name": "BitPay Inc"
+  },
+  "bitcoreNode": "./bitcorenode",
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ivan Socolsky",
+      "email": "ivan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "async": "^0.9.2",
+    "bitcore-lib": "=0.16.0",
+    "bitcore-lib-cash": "=0.19.0",
+    "body-parser": "^1.11.0",
+    "compression": "^1.6.2",
+    "email-validator": "^1.0.1",
+    "express": "^4.10.0",
+    "express-rate-limit": "^2.6.0",
+    "inherits": "^2.0.1",
+    "json-stable-stringify": "^1.0.0",
+    "locker": "^0.1.0",
+    "locker-server": "^0.1.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.10.3",
+    "mongodb": "^2.0.27",
+    "morgan": "^1.9.1",
+    "mustache": "^2.1.0",
+    "npmlog": "^0.1.1",
+    "vpub-bitcore-lib": "git://github.com/vpub/vpub-bitcore-lib.git",
+    "preconditions": "^2.2.1",
+    "read": "^1.0.5",
+    "request": "^2.53.0",
+    "secp256k1": "^3.1.0",
+    "sjcl": "^1.0.2",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "sticky-session": "^0.1.0",
+    "uuid": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "A service for Mutisig HD Bitcoin Wallets",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coveralls": "^3.0.2",
+    "istanbul": "*",
+    "jsdoc": "^3.5.5",
+    "memdown": "^1.0.0",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "proxyquire": "^1.7.2",
+    "sinon": "^7.1.1",
+    "supertest": "*"
+  },
+  "homepage": "https://github.com/bitpay/bitcore-wallet-service#readme",
+  "keywords": [
+    "bitcoin",
+    "copay",
+    "multisig",
+    "wallet",
+    "bitcore",
+    "BWS"
+  ],
+  "license": "MIT",
+  "name": "bitcore-wallet-service",
+  "repository": {
+    "url": "git+ssh://git@github.com/bitpay/bitcore-wallet-service.git",
+    "type": "git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- --reporter spec test",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "start": "./start.sh",
+    "stop": "./stop.sh",
+    "test": "mocha --exit"
+  },
+  "version": "2.5.1"
+}
